@@ -161,8 +161,8 @@
             label = "Aux";
             bindings = <
 &trans    &trans  &trans     &kp C_BRIGHTNESS_DEC  &trans          &kp C_BRIGHTNESS_INC      &kp PRINTSCREEN     &kp LC(LG(LEFT))  &kp LC(LG(D))  &kp LC(LG(RIGHT))  &kp LC(LG(F4))  &trans
-&trans    &trans  &trans     &kp C_VOLUME_DOWN     &kp K_MUTE      &kp C_VOLUME_UP           &kp LC(LS(ESCAPE))  &mkp MB1          &mkp MB2       &mkp MB3           &trans          &trans
-&trans    &trans  &trans     &kp LG(PLUS)          &kp LG(ESCAPE)  &kp LG(MINUS)             &kp LA(LC(DELETE))  &mkp MB4          &mkp MB5       &trans             &kp UP_ARROW    &trans
+&trans    &trans  &trans     &kp C_VOLUME_DOWN     &kp C_MUTE      &kp C_VOLUME_UP           &kp LC(LS(ESCAPE))  &mkp MB1          &mkp MB2       &mkp MB3           &trans          &trans
+&trans    &trans  &trans     &kp LG(KP_PLUS)       &kp LG(ESCAPE)  &kp LG(KP_SUBTRACT)       &kp LA(LC(DELETE))  &mkp MB4          &mkp MB5       &trans             &kp UP_ARROW    &trans
 &trans    &trans  &trans                           &trans          &trans                    &trans              &trans                           &kp LEFT_ARROW     &kp DOWN_ARROW  &kp RIGHT
 &kp LEFT  &kp UP  &kp SPACE  &kp DOWN              &kp RIGHT                                                     &kp HOME          &kp PG_UP      &kp ENTER          &kp PG_DN       &kp END
                              &trans                                                                                                &trans

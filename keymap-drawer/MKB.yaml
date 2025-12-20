@@ -23,7 +23,7 @@ layers:
   - J
   - K
   - L
-  - {t: SEMICOLON, h: Mou}
+  - {t: SEMICOLON, h: Aux}
   - ENTER
   - LSHFT
   - Z
@@ -41,7 +41,7 @@ layers:
   - LGUI
   - LALT
   - {t: SPACE, h: Num}
-  - {t: TAB, h: Scr}
+  - {t: TAB, h: Aux}
   - {t: BACKSPACE, h: RCTRL}
   - {t: ENTER, h: Sym}
   - DELETE
@@ -200,7 +200,7 @@ layers:
   - KP 4
   - KP 5
   - KP 6
-  - {t: KP PLUS, h: Mou}
+  - {t: KP PLUS, h: Aux}
   - KP ASTERISK
   - {t: BT DISC, h: '0'}
   - {t: BT DISC, h: '1'}
@@ -240,44 +240,44 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - BRIGHTNESS DEC
-  - {t: ▽, type: trans}
-  - BRIGHTNESS INC
-  - PRINTSCREEN
-  - Ctl+Gui+LEFT
-  - Ctl+Gui+D
-  - Ctl+Gui+RIGHT
-  - Ctl+Gui+F4
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - VOLUME DOWN
-  - MUTE
-  - VOLUME UP
-  - Ctl+Sft+ESCAPE
-  - '&mkp MB1'
-  - '&mkp MB2'
-  - '&mkp MB3'
-  - UP ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+PLUS
-  - Gui+ESCAPE
-  - Gui+MINUS
-  - Alt+Ctl+DELETE
-  - '&mkp MB4'
-  - '&mkp MB5'
-  - LEFT
-  - DOWN ARROW
-  - RIGHT
-  - Boot
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Boot
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -318,7 +318,7 @@ layers:
   - '&mkp MB1'
   - '&mkp MB2'
   - '&mkp MB3'
-  - {t: Mou, type: held}
+  - Aux
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -327,9 +327,69 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LEFT
+  - UP
+  - SPACE
+  - DOWN
+  - RIGHT
+  - HOME
+  - PG UP
+  - ENTER
+  - PG DN
+  - END
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  Aux:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - BRIGHTNESS DEC
+  - {t: ▽, type: trans}
+  - BRIGHTNESS INC
+  - PRINTSCREEN
+  - Ctl+Gui+LEFT
+  - Ctl+Gui+D
+  - Ctl+Gui+RIGHT
+  - Ctl+Gui+F4
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - VOLUME DOWN
+  - MUTE
+  - VOLUME UP
+  - Ctl+Sft+ESCAPE
+  - '&mkp MB1'
+  - '&mkp MB2'
+  - '&mkp MB3'
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Gui+PLUS
+  - Gui+ESCAPE
+  - Gui+MINUS
+  - Alt+Ctl+DELETE
   - '&mkp MB4'
   - '&mkp MB5'
   - {t: ▽, type: trans}
+  - UP ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -338,10 +398,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT
   - LEFT
   - UP
   - SPACE

@@ -382,9 +382,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+PLUS
+  - Gui+KP PLUS
   - Gui+ESCAPE
-  - Gui+MINUS
+  - Gui+KP SUBTRACT
   - Alt+Ctl+DELETE
   - '&mkp MB4'
   - '&mkp MB5'

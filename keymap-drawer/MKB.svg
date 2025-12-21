@@ -1772,9 +1772,7 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(868, 84)" class="key held keypos-22">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
-<a href="#Mou">
-<text x="0" y="0" class="key held tap layer-activator">Mou</text>
-</a></g>
+</g>
 <g transform="translate(924, 84)" class="key trans keypos-23">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>

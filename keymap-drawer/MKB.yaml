@@ -23,7 +23,7 @@ layers:
   - J
   - K
   - L
-  - {t: SEMICOLON, h: Mou}
+  - {t: SEMICOLON, h: Aux}
   - ENTER
   - LSHFT
   - {t: Z, h: LSHFT}
@@ -82,7 +82,7 @@ layers:
   - MINUS
   - LEFT BRACKET
   - RIGHT BRACKET
-  - {t: COLON, h: Mou}
+  - {t: COLON, h: Aux}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: '!', h: LSHFT}
@@ -141,7 +141,7 @@ layers:
   - PAGE UP
   - UP ARROW
   - PAGE DOWN
-  - {t: F11, h: Mou}
+  - {t: F11, h: Aux}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: F6, h: LSHIFT}
@@ -200,7 +200,7 @@ layers:
   - KP 5
   - KP 6
   - KP PLUS
-  - {t: KP ASTERISK, h: Mou}
+  - {t: KP ASTERISK, h: Aux}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: BT DISC, h: '0'}
@@ -309,7 +309,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Mou
+  - Aux
   - '&mkp MB3'
   - '&mkp MB2'
   - '&mkp MB1'
@@ -318,7 +318,7 @@ layers:
   - '&mkp MB1'
   - '&mkp MB2'
   - '&mkp MB3'
-  - {type: held}
+  - Aux
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -377,7 +377,7 @@ layers:
   - '&mkp MB1'
   - '&mkp MB2'
   - '&mkp MB3'
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -395,7 +395,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT ARROW

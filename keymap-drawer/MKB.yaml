@@ -40,10 +40,10 @@ layers:
   - LCTRL
   - LGUI
   - LALT
-  - {t: SPACE, h: Num}
+  - {t: SPACE, h: Sym}
   - {t: TAB, h: Aux}
   - {t: BACKSPACE, h: RCTRL}
-  - {t: ENTER, h: Sym}
+  - {t: ENTER, h: Num}
   - DELETE
   - RIGHT ALT
   - RWIN
@@ -99,10 +99,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: BT, h: toggle}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -158,10 +158,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: BT, h: toggle}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
